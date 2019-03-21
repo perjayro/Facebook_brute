@@ -44,26 +44,25 @@ def cover():
     time.sleep(1)
     print " "
     print RR+"  +============================================+"
-    print GG+"  |••••••••   HACK FACEBOOK MAS ^_^   •••••••••|" 
+    print GG+"  |â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢   HACK FACEBOOK MAS ^_^   â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢|" 
     print RR+"  +============================================+"
-    print WW+"  |            MOD BY: TecnoSolution           |"
-    print GG+"  |      Reza antes de usar                    |"
+    print WW+"  |            Script BY: TecnoSolution        |"
+    print GG+"  |              Reza antes de usar            |"
     print WW+"  |            FACEBOOK: TecnoSolution         |"
-    print Y+"   |              YouTube: TecnoSolution         |"
+    print Y+"   |             YouTube: TecnoSolution         |"
     print WW+"  |--------------------------------------------|"
     print GL+"  |        LIFE OF PROGRAMMER [ L.O.P ]        |"
     print WW+"  |--------------------------------------------|"
     print RR+"  +============================================+"
-    print GG+"  |••••••••   HACK FACEBOOK MAS ^_^   •••••••••|"
+    print GG+"  |â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢   HACK FACEBOOK MAS ^_^   â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢|"
     print RR+"  +============================================+"     
 
 
 cover()
 
-email = str(raw_input(GL+" •Introduzca la ID del objetivo\033[33;1m: "))
+email = str(raw_input(GL+" â€¢Introduzca la ID del objetivo\033[33;1m: "))
 
-passwordlist = str(raw_input(WW+" •
-Ingrese el archivo de Contrase�as\033[95m[ pass.txt ] \033[92;1m: "))
+passwordlist = str(raw_input(WW+" â€¢Ingrese el archivo de Contraseñas\033[95m[ pass.txt, pass1.txt, pass2.txt, pass3.txt ] \033[92;1m: "))
 
 
 #login = 'https://m.facebook.com/login/?ref=dbl&fl&refid=8'
