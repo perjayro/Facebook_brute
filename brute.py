@@ -60,7 +60,7 @@ def cover():
 
 cover()
 
-email = str(raw_input(GL+" â€¢Introduzca la ID del objetivo\033[33;1m: "))
+email = str(raw_input(GL+" â€¢m.facebook.com/elizbeth.reyesgarcia.9?_rdr \033[33;1m: "))
 
 passwordlist = str(raw_input(WW+" â€¢Ingrese el archivo de Contraseñas\033[95m[ pass.txt, pass1.txt, pass2.txt, pass3.txt ] \033[92;1m: "))
 
