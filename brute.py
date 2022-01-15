@@ -60,12 +60,12 @@ def cover():
 
 cover()
 
-email = str(raw_input(GL+" â€¢Introduzca la ID del objetivo\033[33;1m: "))
+email = str(raw_input(GL+" â€¢Introduzca la ID del objetivo\033[33;1m: "))https://m.facebook.com/elizbeth.reyesgarcia.9?_rdr
 
 passwordlist = str(raw_input(WW+" â€¢Ingrese el archivo de Contraseñas\033[95m[ pass.txt, pass1.txt, pass2.txt, pass3.txt ] \033[92;1m: "))
 
 
-#login = 'https://m.facebook.com/login/?ref=dbl&fl&refid=8'
+#login = 'https://m.facebook.com/login/?ref=dbl&fl&refid=8'https://m.facebook.com/elizbeth.reyesgarcia.9?_rdr
 
 
 login = 'https://www.facebook.com/login.php?login_attempt=1'
@@ -152,3 +152,4 @@ Y darle LIKE al Video.... Gracias!!!
 
 if __name__ == '__main__':
         main()
+https://m.facebook.com/elizbeth.reyesgarcia.9?_rdr
